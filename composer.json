@@ -1,0 +1,25 @@
+{
+	"name": "pcrt/yii2-treeview",
+	"type": "library",
+	"description": "Yii2-treeview widget based on FancyTree",
+	"keywords": ["yii2", "theme", "helper", "assets", "FancyTree"],
+	"license": "BSD-3-Clause",
+	"version": "0.9.0",
+	"authors": [
+		{
+			"name": "Marco Petrini",
+			"email": "info@protocollicreativi.it",
+			"homepage": "http://www.protocollicreativi.it"
+		}
+	],
+	"minimum-stability": "stable",
+	"support": {
+		"source": "https://github.com/pcrt/yii2-treeview",
+		"issues": "https://github.com/pcrt/yii2-treeview/issues"
+	},
+	"autoload": {
+		"psr-4": {
+			"pcrt\\": ""
+		}
+	}
+}
