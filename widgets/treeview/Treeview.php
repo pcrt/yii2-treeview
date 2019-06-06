@@ -29,6 +29,7 @@ class Treeview extends InputWidget
      * @see http://wwwendt.de/tech/fancytree/demo/
      */
     public $clientOptions = [];
+    public $template = "";
 
     /**
      * @inheritdoc
@@ -44,6 +45,10 @@ class Treeview extends InputWidget
     {
         $id = $this->options['id'];
         echo '<div id="'.$id.'">';
+        if ($this->options['template'] == "") {
+            echo $this->options['template'];
+        }
+        echo '</div>';
         $this->registerClientScript();
     }
 
