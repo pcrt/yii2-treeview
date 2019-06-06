@@ -45,7 +45,7 @@ class Treeview extends InputWidget
     {
         $id = $this->options['id'];
         
-        if ($this->template == "") {
+        if ($this->template !== "") {
             echo $this->template;
         } else {
             echo '<div id="'.$id.'">';
