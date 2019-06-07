@@ -4,7 +4,7 @@
 	"description": "Yii2-treeview widget based on FancyTree",
 	"keywords": ["yii2", "theme", "helper", "assets", "FancyTree"],
 	"license": "BSD-3-Clause",
-	"version": "0.9.6",
+	"version": "0.9.8",
 	"authors": [
 		{
 			"name": "Marco Petrini",

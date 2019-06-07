@@ -48,7 +48,7 @@ class Treeview extends InputWidget
         if ($this->template !== "") {
             echo $this->template;
         } else {
-            echo '<div id="'.$id.'">';
+            echo '<div id="'.$id.'"></div>';
         }
         $this->registerClientScript();
     }
